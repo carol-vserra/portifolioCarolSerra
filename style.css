@@ -28,6 +28,9 @@ body {
 
   h1 {
     color: black;
+     font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
 
   }
 
@@ -35,8 +38,7 @@ body {
     color:#4b4848;
     font-size: 20px;
     text-align: center;
-    margin-top: 25px;
-    
+    margin-top: 50px;    
 
   }
 
