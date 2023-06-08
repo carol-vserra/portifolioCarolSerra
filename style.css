@@ -119,3 +119,17 @@ form label, form input, form textarea {
       align-items: center;
       justify-content: center;
     }
+  
+  #b{
+     border-radius: 5px;
+    background-color: rgba(218, 218, 10, 0.855);
+    color: blue;
+    display: inline-block;
+   margin: 10px;
+   font-size: 18;
+   
+  }
+  
+  footer{
+    margin-top: 10px;
+  }
