@@ -20,7 +20,7 @@ body {
   }
 
   p{
-
+    margin-top: 10px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
