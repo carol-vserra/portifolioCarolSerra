@@ -53,9 +53,6 @@ body {
    font-size: 18;
   }
 
-
-
-
   .galeria {
     display: flex;
     flex-wrap: wrap;
@@ -120,6 +117,7 @@ form label, form input, form textarea {
       justify-content: center;
     }
 .rodape {
+  margin: 15px;
   padding: 20px;
   text-align: center;
   font-size: 14px;
