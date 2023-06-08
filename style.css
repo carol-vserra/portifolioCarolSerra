@@ -76,6 +76,13 @@ body {
 
 @media (max-width: 480px) {
   /* Estilos para dispositivos com largura máxima de 480px (celulares em modo retrato) */
+   .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+     
   .gallery img {
     max-width: 100%;
     height: auto;
