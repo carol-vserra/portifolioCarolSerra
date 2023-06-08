@@ -119,3 +119,9 @@ form label, form input, form textarea {
       align-items: center;
       justify-content: center;
     }
+.rodape {
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+  
