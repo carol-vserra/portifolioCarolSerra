@@ -10,6 +10,9 @@ body {
     background-color: #74a9b6;
     
   }
+.container {
+  height: 100vh; /* 100% da altura da janela */
+}
 
   p{
     color: white;
