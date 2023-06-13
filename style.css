@@ -21,16 +21,20 @@ body {
 
   p{
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
   }
 
+#slogan {
+  color: brown;
+  font-size:24px;
+   
+}
+
   h1 {
     color: black;
-     font-size: 30px;
+     font-size: 28px;
     text-align: center;
-    
-
   }
 
   h2{
