@@ -73,20 +73,30 @@ h2{
   max-width: 100%;
 }
 
-@media (max-width: 480px) {
-  /* Estilos para dispositivos com largura máxima de 480px (celulares em modo retrato) */
+@media screen (min-width: 480px) {
+ 
    .galeria {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   align-items: center;
   margin: 0 auto;
+  }
      
   .gallery img {
     max-width: 100%;
     height: auto;
     display:block;
   }
+     
+     body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+       background-color: #74a9b6;
+     }
 }
 
 .link{
