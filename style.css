@@ -1,5 +1,8 @@
 
-
+@@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
   
 body {
     display: flex;
@@ -72,9 +75,13 @@ h2{
   border: 5px solid rgb(153, 143, 143);
   max-width: 100%;
 }
+}
 
-@media screen (min-width: 480px) {
- 
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+ {
    .galeria {
     display: flex;
     flex-wrap: wrap;
@@ -99,38 +106,5 @@ h2{
      }
 }
 
-.link{
-  display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-}
 
-.link a{
-
-  font-size: 18px;
-}
-
-form{ 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  max-width: 400px;
-  height: 100vh;
- 
-}
-
-form label, form input, form textarea {
-      display: block;
-      margin: 10px;
-      align-items: center;
-      justify-content: center;
-    }
-.rodape {
-  margin: 15px;
-  padding: 20px;
-  text-align: center;
-  font-size: 14px;
-}
   
